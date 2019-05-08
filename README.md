@@ -2,7 +2,7 @@
 
 
 ## Intro & Motivation
-When analyzing processes like churn and customer lifecycles, it’s so tempting to just export your existing customer base, whip up a few features like average_order_value, order_frequency and n_total_orders, throw it in a model and call it a day. Your model probably performs pretty good too! But using ‘present-tense’ data to predict a ‘past-tense’ outcome doesn’t make much sense. Plus, it stinks of survivorship bias and data leakage!
+When analyzing processes like churn and customer lifecycles, it’s so tempting to just export your existing customer base, whip up a few features like *average_order_value*, *order_frequency* and *n_total_orders*, throw it in a model and call it a day. Your model probably performs pretty good too! But using ‘present-tense’ data to predict a ‘past-tense’ outcome doesn’t make much sense. Plus, it stinks of __survivorship bias__ and __data leakage__!
 
 What if you were able to estimate a brand-new customer’s lifetime, just by looking at their first order? Is this even possible with such little data? This is known as the “cold start problem” — to solve it, we’ll need to figure out a way to best leverage our severely limited data. This tutorial will walk you through estimating the lifetimes of new customers using a Gradient Boost Regressor.
 
